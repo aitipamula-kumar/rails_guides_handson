@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  get 'articles/about'
   root "articles#index"
   
   resources :articles do 
